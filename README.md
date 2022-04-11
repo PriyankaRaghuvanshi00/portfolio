@@ -1,7 +1,7 @@
 # My porfolio
 this is a basic demo react app for my porfolio
-
-[![Watch the video](https://www.linkedin.com/posts/priyanka-raghuvanshi-4518611a9_reactjs-portfoliodesign-portolio-activity-6875060860566433792-eN8t?utm_source=linkedin_share&utm_medium=member_desktop_web)]
+[Create React App](https://www.linkedin.com/posts/priyanka-raghuvanshi-4518611a9_reactjs-portfoliodesign-portolio-activity-6875060860566433792-eN8t?utm_source=linkedin_share&utm_medium=member_desktop_web).
+ 
 
 ## Getting Started with Create React App
 
