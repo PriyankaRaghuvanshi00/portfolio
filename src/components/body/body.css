@@ -1,0 +1,132 @@
+.body {
+   display: flex;
+}
+
+a {
+   color: var(--font);
+   text-decoration: none;
+}
+
+.file-container {
+   background-color: var(--header);
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+   color: var(--font);
+   border-right: 1px solid var(--border);
+}
+
+.folder {
+   width: 150px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+}
+
+
+.folder-title {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+
+}
+
+.folder-title h3:hover {
+   color: white;
+}
+
+.folder-title i, .folder-title h3 {
+   font-weight: 400;
+   color: var(--font);
+   font-size: 15px;
+}
+
+.folder-title i {
+   margin-right: 12px;
+}
+
+.file h3:hover, .file h3 a:hover {
+   color: white;
+}
+
+.files {
+   display: flex;
+   flex-direction: column;
+   margin-left: 20px;
+   margin-bottom: 10px;
+}
+
+.file {
+   width: fit-content;
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+   padding: 2px 3px;
+
+}
+
+.file h3 a {
+   font-size: 13px;
+}
+
+
+
+
+.file i {
+   margin-right: 10px;
+}
+
+.file i, .file h3 {
+   font-weight: 400;
+   font-size: 15px;
+}
+
+@media screen and (max-width:760px) {
+   .file h3 a {
+      font-size: 10px;
+   }
+
+   .file-container {
+      padding: 6px;
+   }
+
+   .folder {
+      width: 100px;
+   }
+
+   .folder-title i, .folder-title h3 {
+      font-size: 12px;
+      font-weight: 600;
+      margin-bottom: 2px;
+   }
+
+   .folder-title i {
+      margin-right: 12px;
+   }
+
+   .files {
+
+      margin-left: 3px;
+   }
+
+   .file {
+      padding: 2px 1px;
+
+   }
+
+   .file i {
+      margin-right: 5px;
+   }
+
+   .file i, .file h3 {
+
+      font-size: 12px;
+   }
+
+   .file h3 {
+      padding-right: 10px;
+   }
+
+}

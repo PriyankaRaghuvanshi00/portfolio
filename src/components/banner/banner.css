@@ -1,0 +1,18 @@
+.banner{
+}
+
+.canvas{
+   width: 100vw;
+   background-color: rgb(34, 34, 34);
+   height: 100vh;
+}
+
+.bubble{
+   z-index: 1;
+   border-radius: 50%;
+   position: absolute;
+   background-color: rgb(136, 150, 136);
+   width: 15px;
+   box-shadow: 1px 1px 15px rgba(14, 240, 252, 0.603);
+   height: 15px;
+}

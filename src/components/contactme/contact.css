@@ -1,0 +1,67 @@
+.ld {
+   color: #0274B3;
+}
+
+.github {
+   color: black;
+}
+
+.mail {
+   color: #FBBC04;
+}
+
+.contactme {
+   position: relative;
+   top: 25vh;
+   display: flex;
+   flex-wrap: wrap;
+   width: 90%;
+   justify-content: center;
+   align-items: center;
+}
+
+.contactme a {
+   display: flex;
+   flex-direction: column;
+}
+
+.contact {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+   margin: 10px;
+}
+
+.contact i {
+   font-weight: 200;
+   font-size: 70px;
+}
+
+.contact h3 {
+   font-weight: 200;
+   font-size: 20px;
+}
+
+@media screen and (max-width:760px) {
+   .contactme {
+      top: 25vh;
+      width: 90%;
+   }
+
+   .contact {
+      padding: 5px;
+      margin: 5px;
+   }
+
+   .contact i {
+      font-weight: 500;
+      font-size: 20px;
+   }
+
+   .contact h3 {
+      font-weight: 500;
+      font-size: 10px;
+   }
+}

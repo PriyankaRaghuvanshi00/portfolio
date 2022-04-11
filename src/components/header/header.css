@@ -1,0 +1,31 @@
+header {
+   width: 100%;
+   display: flex;
+   margin: 0px;
+   border: 1px solid var(--header);
+   background-color: var(--header);
+   border-bottom: 1px solid var(--border);
+}
+
+
+header a {
+   font-weight: 400;
+   padding: 2px 12px;
+   letter-spacing: 0.5px;
+   color: rgb(202, 200, 200);
+   cursor: pointer;
+   font-size: 15px;
+}
+
+header a:hover {
+   color: rgba(117, 242, 247, 0.884);
+}
+
+@media (max-width:760px) {
+   header a {
+      font-weight: 400;
+      padding: 0px 8px;
+      letter-spacing: 0.1px;
+      font-size: 10px;
+   }
+}

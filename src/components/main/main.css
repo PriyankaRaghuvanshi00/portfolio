@@ -1,0 +1,75 @@
+.react {
+   color: #00D1F7 !important;
+}
+
+.js {
+   color: yellow;
+}
+
+.css {
+   color: #2660E8;
+}
+
+.c {
+   color: #1D609C
+}
+
+.html {
+   color: #DD4B25
+}
+
+.main {
+   width: 86%;
+   display: flex;
+   flex-direction: column;
+}
+
+.main-header {
+   display: flex;
+   /* justify-content: center; */
+   align-items: center;
+}
+
+.bb {
+   border-bottom: 3px solid rgba(117, 242, 247, 0.884) !important;
+
+}
+
+.main-file {
+   width: fit-content;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 6px 10px;
+   cursor: pointer;
+}
+
+.main-file i:hover, .main-file h3:hover {
+   color: white;
+}
+
+.main-file i, .main-file h3 {
+   font-size: 13px;
+   font-weight: 400;
+   color: var(--font);
+}
+
+.main-file h3 {
+   margin-left: 5px;
+   margin-right: 10px;
+}
+
+.cross {
+   visibility: hidden;
+}
+
+.main-file:hover .cross {
+   visibility: visible;
+}
+
+.cross:hover {
+   padding: 3px;
+   color: black;
+   background-color: rgba(128, 128, 128, 0.295);
+   border-radius: 50%;
+}
